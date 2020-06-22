@@ -1,0 +1,28 @@
+@import "base css.css";
+
+.imageEvenement
+{
+	float:left;
+	margin-right:25px;
+}
+
+@media screen and (min-width: 400px) 
+{
+  .imageEvenement
+  {
+    width:250px;
+  }
+}
+
+@media screen and (max-width: 399px) 
+{
+   .imageEvenement
+  {
+    width:170px;
+  }
+}
+
+video
+{
+	width:100%;
+}

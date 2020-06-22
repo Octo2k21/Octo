@@ -1,0 +1,25 @@
+@import "accueil css.css";
+
+.imageOcto
+{
+	width:450px;
+	display:block;
+	margin-bottom:20px;
+}
+
+@media screen and (min-width: 651px)
+{
+	.imageOcto
+	{
+		width:450px;
+	}
+}
+
+@media screen and (max-width: 650px)
+{
+	.imageOcto
+	{
+		width:170px;
+	}
+}
+

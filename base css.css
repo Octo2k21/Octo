@@ -1,0 +1,190 @@
+html,body,h1,p /*supression des marges éventuelles pour les éléments concernés*/
+{
+	margin:0;
+	padding:0;
+}
+
+body
+{
+	background-color:black;
+}
+
+a
+{
+	color:white;
+}
+
+span
+{
+	font-family:AcuminProRegular;
+}
+
+section
+{
+	padding-top:20px;
+}
+
+@font-face
+{
+	font-family:Bahnschrift;
+	src:url(Fonts/BAHNSCHRIFT.ttf);
+	font-weight:bold;
+}
+
+@font-face
+{
+	font-family:AcuminProRegular;
+	src:url(Fonts/ACUMIN_PRO_REGULAR.ttf);
+}
+
+@font-face
+{
+	font-family:AcuminProBold;
+	src:url(Fonts/ACUMIN_PRO_BOLD.ttf);
+}
+
+.ligneNoire,.rectangleJaune,.rubrique,#corps
+{
+	display:inline-block;
+}
+
+#ligne2,#ligne3,#corps
+{
+	background-color:white;
+}
+
+#ligne3,#logo
+{
+	float:left;
+}
+
+#main1,.main2
+{
+	display:flex;
+}
+
+#logo
+{
+	margin:14px 45px 0 14px;
+	width:140px;
+	
+}
+	
+.rubrique
+{
+	
+	background-color:#e20613;
+	
+	width:170px;
+	height:160px;
+	margin-left:25px;
+	margin-bottom:10px;
+}
+
+.titreRubrique
+{
+	font-family:Bahnschrift;
+	color:white;
+	
+	padding-top:60px;
+	font-size:30px;
+	text-align:center;
+}
+
+#ligne2
+{
+	height:2px;
+	width:88%;
+	
+	margin:25px 0 20px 6%;
+}
+
+#ligne3
+{
+	width:2px;
+	margin-left:6%;
+}
+
+#corps
+{
+	width:88%;
+	margin:0 6% 0 2%;
+	padding-bottom:40px;
+}
+
+.titreArticle
+{
+	font-family:Bahnschrift;
+
+	margin:48px 0 20px 9%;
+}
+
+@media screen and (min-width: 620px) 
+{
+	.titreArticle
+	{
+		font-size: 90px;
+	}
+}
+
+@media screen and (max-width: 619px) 
+{
+	.titreArticle
+	{
+		font-size: 50px;
+	}
+}
+
+.contenuArticle
+{
+	font-family:AcuminProBold;
+	width:70%;
+	text-align:justify;
+}
+
+@media screen and (min-width: 501px) 
+{
+	.contenuArticle
+	{
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 500px) 
+{
+	.contenuArticle
+	{
+		font-size: 15px;
+	}
+}
+
+.hexagone
+{
+	position:absolute;
+}
+
+.rectangleJaune
+{
+	background-color:#f6c114;
+	
+	position:relative;
+	
+	top:40px;
+	margin:0 0 0 110px;
+	height:25px;
+	border-radius:5px;
+	width:70%;
+}
+
+.main2
+{
+	margin-left:11%;
+}
+
+.ligneNoire
+{
+	background-color:black;
+	width:2px;
+	margin-right:20px;
+}
+

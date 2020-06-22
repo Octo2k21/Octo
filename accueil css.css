@@ -1,0 +1,66 @@
+@import "base css.css";
+
+#agenda
+{
+	width:120%;
+	max-width:1000px;
+	margin-top:30px;
+}
+.imageAgenda
+{
+	height:250px;
+	width:250px;
+	display:inline-block;
+}
+
+.sousTitre
+{
+	font-family:Bahnschrift;
+	
+	font-size:50px;
+	margin-top:48px;
+	margin-left:9%;
+}
+
+#contenuAgenda
+{
+	font-family:AcuminProBold;
+	width:70%;
+}
+
+@media screen and (min-width: 501px) 
+{
+	#contenuAgenda
+	{
+		font-size: 22px;
+	}
+}
+
+@media screen and (max-width: 500px) 
+{
+	#contenuAgenda
+	{
+		font-size: 15px;
+	}
+}
+
+@media screen and (min-width: 620px) 
+{
+  .sousTitre
+  {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 619px) 
+{
+   .sousTitre
+  {
+    font-size: 35px;
+  }
+}
+
+.imageAgenda:hover
+{
+	transform: scale(1.2);
+}

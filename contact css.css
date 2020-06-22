@@ -1,0 +1,42 @@
+@import "base css.css";
+
+#reseaux
+{
+	margin-top:20px;
+}
+
+#contenuReseaux
+{	
+	font-family:AcuminProBold;
+	font-size:22px;
+	width:100%;/*pour que les 3 icônes restent côte à côte toutes les 3 plus longtemps(plus esthétique), on passe cette valeur de 70 à 100%*/
+}
+
+.logoReseau
+{
+	margin-right:7%;
+	margin-bottom:15px;
+	width:150px;
+}
+
+#logoEmail
+{
+	width:200px;
+	float:left;
+	margin-right:25px;
+}
+
+#texteMail
+{
+	margin-top:30px;
+}
+
+#mail
+{
+	color:#e20613;
+}
+
+.logoReseau:hover
+{
+	transform: scale(1.2);
+}
